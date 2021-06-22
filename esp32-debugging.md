@@ -1,5 +1,5 @@
-# ESP 32 Debugging Guide  
-Welcome to the wonderful world of ESP32 debugging. A *supposedly* simple process that has caused me to loose too many hours of sleep...  
+# ESP32 Debugging Guide  
+Welcome to the wonderful world of ESP32 debugging. A *supposedly* simple process that has caused me to lose too many hours of sleep...  
 
 Nice general guide: https://docs.platformio.org/en/latest/plus/debug-tools/esp-prog.html
 
@@ -35,14 +35,14 @@ If using for just debugging:
 If using for programming and debugging:  
 ![Wiring connections](../resources/img/ESP32-Debugging-all-connections.png?raw=true)
 
-*NOTE:* On the normal dev board, there is a resistor (R17) connecting the onboard serial programmer to serial 0 on the ESP32. This has to be removed for serial programming from the ESP Prog to work.
-	-> If you do not care to do this, you will have to upload through USB to the device like normal. Everything should mostly be the same, just need two USB cables. 
-	-> Also, if doing this, DO NOT connect the 3.3V from programmer -> ESP32.
+*NOTE:* On the normal dev board, there is a resistor (R17) connecting the onboard serial programmer to serial 0 on the ESP32. This has to be removed for serial programming from the ESP Prog to work.  
+	-> If you do not care to do this, you will have to upload through USB to the device like normal. Everything should mostly be the same, just need two USB cables.   
+	-> Also, if doing this, DO NOT connect the 3.3V from programmer -> ESP32.  
 
-ESP Dev Kit schematic: https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf
+ESP Dev Kit schematic: https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf  
 
-**PlatformIO Setup**
-platformio.ini:
+**PlatformIO Setup**  
+platformio.ini:  
 
     platform = espressif32
     board = esp32dev
