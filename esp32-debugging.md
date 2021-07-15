@@ -1,9 +1,10 @@
 # ESP32 Debugging Guide  
 Welcome to the wonderful world of ESP32 debugging. A *supposedly* simple process that has caused me to lose too many hours of sleep...  
 
-Nice general guide: https://docs.platformio.org/en/latest/plus/debug-tools/esp-prog.html
+The official guide (which may or may not work for you): https://docs.platformio.org/en/latest/plus/debug-tools/esp-prog.html
 
 # Hardware  
+You will need...  
  - ESP32 DevkitC (or something similar):    
 <p align="center"><img align="center" width="400px" src="https://docs.espressif.com/projects/esp-idf/en/v3.1.5/_images/esp32-devkitc-functional-overview1.jpg"/></p>   
 
@@ -15,7 +16,7 @@ Nice general guide: https://docs.platformio.org/en/latest/plus/debug-tools/esp-p
 
 # Setup  
 **Installing Drivers**
- - Connect ESP Prog    
+ - Connect the ESP Prog to your computer    
  - Install FTDI driver (use the executable on the right!): https://ftdichip.com/drivers/vcp-drivers/  
  - Zadig: https://zadig.akeo.ie/    
 	- Run    
